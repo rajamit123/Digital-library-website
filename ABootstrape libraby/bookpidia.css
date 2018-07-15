@@ -1,0 +1,399 @@
+body{
+    background-color: #ff884d;    
+}
+.container-fluid{
+    margin: 0;
+}
+
+
+.mySlides {
+    display: none;
+           
+           margin:0; 
+
+    }
+.container{
+    background-color: #ff884d;
+    height: auto;
+}
+
+
+
+.bg-color{
+     background-color: #994d00;
+}
+
+button{
+    background-color:red;
+}
+.red{
+    background-color:red;
+}
+.nav-item{
+     display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+.nav-link:hover:not(.active) {
+    color: white;
+    background-color:red;
+     cursor: pointer;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #994d00;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:#ff3300;
+     cursor: pointer;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+     cursor: pointer;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+li.dropdown {
+    display:inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+     
+}
+
+
+
+.heading{
+    margin: 10px 0px;
+    color: white;
+    height: 150px;
+}
+h1{
+	width: 100%;
+    height: 150px;
+    padding-top: 20px;
+	text-align: center;
+	background-image: url(image/digital-library.jpg);
+	margin: 10px 0px;
+    box-shadow: 5px 3px 3px black;
+    color: white;
+}
+h1:hover{
+	color:darkred;
+	 cursor: pointer;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+hr{
+	margin: 0px;
+}
+.class{
+	max-width: 80%;
+	
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-top: 10px;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+marquee{
+    font-size: 20px;
+    color: #009900;
+}
+
+
+.mainhouses{
+    width: 80%;
+    border: 2px darkred;
+    border-style: double;
+    margin-top: 2vh;
+    margin: 6vh auto;
+    height: 70vh;
+    background-image: url(image/sun_rise-766x400.jpg);
+    
+     background-position: center;
+    background-size: cover;
+    box-shadow: 5px 10px 5px #888888;
+    
+}
+.w3-center{
+   text-align: center;
+    font-size: 5vh;
+    font-style: italic;
+    font-family: serif;
+    color:darkred;
+    width: 40%;
+    font-weight: 800;
+    margin: 5vh auto;
+      justify-content: center;
+    align-items: center;
+}
+.w3-content{
+    margin: 1vh auto;
+    height: 80vh;
+    
+}
+.w3-content img{
+    margin: auto;
+    height: 60vh;
+    margin-top: 5vh;
+    border-color: darkred;
+    border-style: ridge;
+    border-width: 2px;
+    box-shadow: 5px 10px 5px #888888;
+
+}
+.w3-content h1{
+    font-style: italic;
+    font-size: 5vh;
+    text-align: center;    
+    text-decoration: none;
+      justify-content: center;
+    align-items: center;
+}
+.w3-content h1:hover{
+    background-color:  #b3ffff;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+#featuresection{
+    padding-top: 10px;
+    
+}
+.featuresection{
+    width: 70%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5em;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+.featurecontent{
+    margin: auto;
+    width: 85%;
+}
+.slide{
+    margin-left:90px;
+}
+.col3{
+   width: 33%;
+    float: left;
+    padding-top: 20px;
+}
+.featurecontent .col3{
+    padding-top: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    width: 30%;
+    color: white;
+}
+
+.featurecontent .col3 img{
+    width:100%;
+    height: 250px;
+    
+}
+.featurecontent .col3 img:hover{
+	color:#800000;
+	 cursor: pointer;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.featurecontent .col3 p{
+    font-size: .9em;
+    letter-spacing: 1px;
+    
+    text-align: center;
+}
+.featurecontent .col3 h3{
+    text-align: center;
+}
+
+footer{
+	margin: 0px;
+    height: 290px;
+    
+}
+
+.li{
+list-style-type: none;
+}
+.bottom{
+    height: 200px;
+    background-color: ;
+}
+
+.copyright{
+    padding: 50px 0px 0px 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: white;
+}
+.endsection{
+    padding-top: 20px;
+     width: 70%;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: .9em;
+    color: white;
+}
+marquee{
+    font-size: 20px;
+    color: white;
+}
+.foot{
+    background-color: chocolate;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+    margin: 5px;
+   
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+    margin: 5px;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+margin: 5px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+   float: right;
+    margin: 5px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+    float: right;
+    margin: 5px;
+}
